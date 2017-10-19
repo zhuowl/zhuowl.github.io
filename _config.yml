@@ -6,7 +6,7 @@ email: zhuowl527@gmail.com
 description: "快下架的老学姐，好好学习，天天向上"
 keyword: "学习unreal4 和shader中"
 url: "http://zhuowl.github.io"              # your host, for absolute URL
-baseurl: "/zhuowl"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/zhuowl.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
