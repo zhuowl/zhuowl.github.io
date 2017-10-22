@@ -4,9 +4,9 @@ SEOTitle: 天才宝藏的博客 | Your Blog
 header-img: img/home-bg.jpg
 email: zhuowl527@gmail.com
 description: "快下架的老学姐，好好学习，天天向上"
-keyword: "学习unreal4 和shader中"
+keyword: ""
 url: "http://zhuowl.github.io"              # your host, for absolute URL
-baseurl: "/zhuowl.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
@@ -27,12 +27,12 @@ permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
+gems: [jekyll-paginate]
 
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+
 
 
 
@@ -47,7 +47,7 @@ kramdown:
 
 
 # Disqus settings
-#disqus_username: _your_disqus_short_name_
+disqus_username: zhuowl
 
 # Duoshuo settings
 #duoshuo_username: huxblog
