@@ -27,7 +27,6 @@ http://zhuowl.github.io/2017/10/21/build-a-blog/
 1. [关于Github Pages + Jekyll](# github-pages---jektll-is-what)
 2. [注册GitHub](#github)
 3. [环境安装](#setup)
-4. [新建博客](Blog)
 
 
 
@@ -71,54 +70,29 @@ Github Pages + Jekyll方案的**不足**：
 ## 环境安装
 >本文的安装都是在Windows系统下进行。
 
-#### Git相关环境的安装
+#### Git的安装
 >如果之前已经安装了Git，可以忽略这一步。
 
 在[Git的官网网址](https://git-scm.com/)点击下载安装包
-![下载Git](/img/in-post/post-build-a-blog/git-setup.png)
+[下载Git](/img/in-post/post-build-a-blog/git-setup.png)
 选择对应的安装版本，因为我的电脑是64位的，所以选择了64位的版本。
-![下载Git02](/img/in-post/post-build-a-blog/git-setup02.png)
+[下载Git02](/img/in-post/post-build-a-blog/git-setup02.png)
 双击下载得到的Git安装包文件。
-Git的安装路径可以换成自己想要的路径，保证自己能够记住这个路径，而且尽量不要有中文（就怕中文万一有什么问题。）
+Git的安装路径要记得，而且尽量不要有中文（就怕中文万一有什么问题。）
 对于Git的安装选项，我都是直接默认就好，有其他需要的可以按着自己的需求来。
-![Git安装](/img/in-post/post-build-a-blog/git-setup03.png)
-直到最后install,等待一段时间，Git就安装完成了。
+[Git安装](/img/in-post/post-build-a-blog/git-setup03.png)
+直到最后install,等待一段时间，Git就安装了。
+对于Git的使用，我个人觉得先在安装Git安装完成后，体验一番用命令行来控制Git的各种行为后，再来用[TortoiseGit](https://tortoisegit.org/)这种图形客户端来实现Git的功能。这样对于Git的工作流程会有更加清晰的认识，而使用图形客户端能够是我们在使用Git的时候更加方便。
+[利用命令行控制Git的参考教程]()
+#### TortoiseGit的安装
+在[TortoiseGit的官网网址](https://tortoisegit.org/)下载TortoiseGit
+[下载tortoiseGit](/img/in-post/post-build-a-blog/git05.png)
+同样也是进入了下载页面，下载对应版本的TortoiseGit，在这个页面，我们也可以顺便下载下它对应的语言包。
+[下载tortoiseGit02](/img/in-post/post-build-a-blog/git06.png)
 
-#### Git的图形客户端 ——TortoiseGit的安装
->对于Git的使用，我个人觉得先在安装Git安装完成后，体验一番用命令行来控制Git的各种行为后，再来用[TortoiseGit](https://tortoisegit.org/)这种图形客户端来实现Git的功能。这样对于Git的工作流程会有更加清晰的认识，而使用图形客户端能够是我们在使用Git的时候更加方便。
-
->可以参考这篇[利用命令行控制Git的参考教程]()
-
-在[TortoiseGit的官网网址](https://tortoisegit.org/)中下载TortoiseGit。
-![下载tortoiseGit](/img/in-post/post-build-a-blog/git-setup05.png)
-同样也是进入了下载页面，下载对应版本的TortoiseGit，在这个页面，我们也可以顺便下载下它对应的中文简体的语言包。（当然你觉得自己的英文水平足够好，不需要语言包，也可以不用下载）
-![下载tortoiseGit02](/img/in-post/post-build-a-blog/git-setup06.png)
-同样的双击下载好的安装包文件，一切按照默认选项。
-安装完后双击下载好的语言包，一切按照默认选项，安装完成后，随便选择计算机中的一个文件夹右击出现下图。
-
-是不是很奇怪，我不是已经装好了语言包吗，为什么还是显示为英文。这是因为我们还没有修改语言设置。如图进入**Settings**设置，
-
-![修改语言设置](/img/in-post/post-build-a-blog/git-setup07.png)
-如图在**General**中，设置**Language**为**简体中文**，点击选择**应用**，再次右击就会发现语言已经转换成中文了。
-![修改](/img/in-post/post-build-a-blog/git-setup08.png)
-这时候，选择里面的**Git**，**配置源**可以按照自己的需求选择，**名称**，**Email**和**签名密匙ID**就是我们注册Git的账号名称和邮箱以及密码。
-![补上账号信息](/img/in-post/post-build-a-blog/git-setup09.png)
 右上角的左键点击+，弹出子菜单，选择其中的**new repository **(新的版本库)
 ![注册账号02](/img/in-post/post-build-a-blog/git02.png)
 
-## 
-
-
-
-
-
-
-
-
-
-
-#### Jekyll的本地调试的环境的安装
->为了使在本地也可以看到我们博客的效果。如果没有安装，我们每次修改了一些内容都需要重复的推送到本地master，再上传，再在我们的博客地址上看到最终效果，十分的麻烦。
 
 
 
