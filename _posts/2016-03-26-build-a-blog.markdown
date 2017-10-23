@@ -1,4 +1,4 @@
-
+---
 layout:     post
 title:      "Github Pages + Jekyll 独立博客一小时快速搭建&上线指南"
 subtitle:   "分享你的知识和观点"
