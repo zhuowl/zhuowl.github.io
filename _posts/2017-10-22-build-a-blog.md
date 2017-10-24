@@ -16,7 +16,6 @@ tags:
 
 ---
 **版权声明：欢迎分享，转载请注明此文链接。**
-
 http://zhuowl.github.io/2017/10/21/build-a-blog/
 
 
@@ -25,9 +24,9 @@ http://zhuowl.github.io/2017/10/21/build-a-blog/
 
 
 1. [关于Github Pages + Jekyll](# github-pages---jektll-is-what)
-2. [注册GitHub](#github)
-3. [环境安装](#setup)
-4. [新建博客](Blog)
+2. [注册GitHub](# github)
+3. [环境安装](# setup)
+4. [建立个人的GitHub Pages](# github-pages)
 
 
 
@@ -81,13 +80,16 @@ Github Pages + Jekyll方案的**不足**：
 双击下载得到的Git安装包文件。
 Git的安装路径可以换成自己想要的路径，保证自己能够记住这个路径，而且尽量不要有中文（就怕中文万一有什么问题。）
 对于Git的安装选项，我都是直接默认就好，有其他需要的可以按着自己的需求来。
+
+也可以参考这篇文章可以参考这篇[ github入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)，上面有将Git安装时的每个选项的意义的内容。
 ![Git安装](/img/in-post/post-build-a-blog/git-setup03.png)
 直到最后install,等待一段时间，Git就安装完成了。
 
 #### Git的图形客户端 ——TortoiseGit的安装
 >对于Git的使用，我个人觉得先在安装Git安装完成后，体验一番用命令行来控制Git的各种行为后，再来用[TortoiseGit](https://tortoisegit.org/)这种图形客户端来实现Git的功能。这样对于Git的工作流程会有更加清晰的认识，而使用图形客户端能够是我们在使用Git的时候更加方便。
 
->可以参考这篇[利用命令行控制Git的参考教程]()
+>关于如何使用命令行可以参考刚刚推荐的这篇[ github入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)
+>里面也有很详细的关于如何使用命令行来实现版本控制。
 
 在[TortoiseGit的官网网址](https://tortoisegit.org/)中下载TortoiseGit。
 ![下载tortoiseGit](/img/in-post/post-build-a-blog/git-setup05.png)
@@ -103,22 +105,28 @@ Git的安装路径可以换成自己想要的路径，保证自己能够记住�
 ![修改](/img/in-post/post-build-a-blog/git-setup08.png)
 这时候，选择里面的**Git**，**配置源**可以按照自己的需求选择，**名称**，**Email**和**签名密匙ID**就是我们注册Git的账号名称和邮箱以及密码。
 ![补上账号信息](/img/in-post/post-build-a-blog/git-setup09.png)
-右上角的左键点击+，弹出子菜单，选择其中的**new repository **(新的版本库)
-![注册账号02](/img/in-post/post-build-a-blog/git02.png)
-
-## 
-
-
-
-
-
-
 
 
 
 
 #### Jekyll的本地调试的环境的安装
 >为了使在本地也可以看到我们博客的效果。如果没有安装，我们每次修改了一些内容都需要重复的推送到本地master，再上传，再在我们的博客地址上看到最终效果，十分的麻烦。
+
+
+
+## 建立个人的GitHub Pages
+
+### 建立博客的版本库
+在github的账号页面，选择右上角的左键点击+，弹出子菜单，选择其中的**new repository **(新的版本库)
+![注册账号02](/img/in-post/post-build-a-blog/git02.png)
+
+
+
+
+
+
+
+
 
 
 
