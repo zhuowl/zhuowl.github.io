@@ -1,12 +1,11 @@
 ---
 layout:     post
-title:      "Github Pages + Jekyll搭建独立博客教程"
+title:      "Github Pages + Jekyll搭建独立博客教程(一)"
 subtitle:   ""
 author:     "zhuowl"
 header-img: "img/post-bg-js-version.jpg"
 tags:
     - Git
-    - 建站
     - 教程
 ---
 # 前言
@@ -16,6 +15,7 @@ tags:
 
 ---
 **版权声明：欢迎分享，转载请注明此文链接。**
+<<<<<<< HEAD:_posts/2017-10-22-build-a-blog.md
 http://zhuowl.github.io/2017/10/21/build-a-blog/
 
 
@@ -30,6 +30,15 @@ http://zhuowl.github.io/2017/10/21/build-a-blog/
 
 
 
+=======
+(http://zhuowl.github.io/2017/10/22/build-a-blog/)
+
+## 目录
+1. [关于Github Pages + Jekyll](#github-pages---jektll-is-what)
+2. [注册GitHub](#github)
+3. [Git环境安装](#setup)
+4. [Jelyll本地调试环境安装](#jekyll-set)
+>>>>>>> f8d46ac7301e67a4ef5ad552a91bae388363ec2d:_posts/2017-10-22-build-a-blog1.md
 
 ## 关于Github Pages + Jekyll
 
@@ -70,7 +79,8 @@ Github Pages + Jekyll方案的**不足**：
 ## 环境安装
 >本文的安装都是在Windows系统下进行。
 
-#### Git相关环境的安装
+### Git相关环境的安装
+#### Git安装
 >如果之前已经安装了Git，可以忽略这一步。
 
 在[Git的官网网址](https://git-scm.com/)点击下载安装包
@@ -78,29 +88,37 @@ Github Pages + Jekyll方案的**不足**：
 选择对应的安装版本，因为我的电脑是64位的，所以选择了64位的版本。
 ![下载Git02](/img/in-post/post-build-a-blog/git-setup02.png)
 双击下载得到的Git安装包文件。
-Git的安装路径可以换成自己想要的路径，保证自己能够记住这个路径，而且尽量不要有中文（就怕中文万一有什么问题。）
+Git的安装路径可以换，保证自己能够记住这个路径，而且尽量不要有中文（就怕中文万一有什么问题。）
+
 对于Git的安装选项，我都是直接默认就好，有其他需要的可以按着自己的需求来。
 
+<<<<<<< HEAD:_posts/2017-10-22-build-a-blog.md
 也可以参考这篇文章可以参考这篇[ github入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)，上面有将Git安装时的每个选项的意义的内容。
+=======
+当然也可以参考这篇文章[Git入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)里面有详细的关于如何安装Git的内容。
+>>>>>>> f8d46ac7301e67a4ef5ad552a91bae388363ec2d:_posts/2017-10-22-build-a-blog1.md
 ![Git安装](/img/in-post/post-build-a-blog/git-setup03.png)
 直到最后install,等待一段时间，Git就安装完成了。
 
 #### Git的图形客户端 ——TortoiseGit的安装
 >对于Git的使用，我个人觉得先在安装Git安装完成后，体验一番用命令行来控制Git的各种行为后，再来用[TortoiseGit](https://tortoisegit.org/)这种图形客户端来实现Git的功能。这样对于Git的工作流程会有更加清晰的认识，而使用图形客户端能够是我们在使用Git的时候更加方便。
+> 参考这篇[Git入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)文章，可以学习Git的命令行语句。
 
+<<<<<<< HEAD:_posts/2017-10-22-build-a-blog.md
 >关于如何使用命令行可以参考刚刚推荐的这篇[ github入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)
 >里面也有很详细的关于如何使用命令行来实现版本控制。
+=======
+>>>>>>> f8d46ac7301e67a4ef5ad552a91bae388363ec2d:_posts/2017-10-22-build-a-blog1.md
 
-在[TortoiseGit的官网网址](https://tortoisegit.org/)中下载TortoiseGit。
+在[TortoiseGit的官网网址](https://tortoisegit.org/)中下载TortoiseGit的安装包。
 ![下载tortoiseGit](/img/in-post/post-build-a-blog/git-setup05.png)
-同样也是进入了下载页面，下载对应版本的TortoiseGit，在这个页面，我们也可以顺便下载下它对应的中文简体的语言包。（当然你觉得自己的英文水平足够好，不需要语言包，也可以不用下载）
-![下载tortoiseGit02](/img/in-post/post-build-a-blog/git-setup06.png)
-同样的双击下载好的安装包文件，一切按照默认选项。
-安装完后双击下载好的语言包，一切按照默认选项，安装完成后，随便选择计算机中的一个文件夹右击出现下图。
-
-是不是很奇怪，我不是已经装好了语言包吗，为什么还是显示为英文。这是因为我们还没有修改语言设置。如图进入**Settings**设置，
-
+同样也是进入了下载页面，下载对应版本的TortoiseGit安装包，在这个页面，我们也可以顺便下载下它对应的中文简体的语言包。（当然你觉得自己的英文水平足够好，不需要语言包，也可以不用下载）
+![下载tortoiseGit02](/img/in-post/post-build-a-blog/git-setup04.png)
+同样的双击下载好的安装包文件，一切按照默认选项，安装完成后，双击安装语言包（按照默认选项）。
+安装完成后，随便选择计算机中的一个文件夹右击出现下图。
+是不是很奇怪，我不是已经装好了语言包吗，为什么还是显示为英文。这是因为我们还没有修改语言设置。如图进入**Settings**设置。
 ![修改语言设置](/img/in-post/post-build-a-blog/git-setup07.png)
+<<<<<<< HEAD:_posts/2017-10-22-build-a-blog.md
 如图在**General**中，设置**Language**为**简体中文**，点击选择**应用**，再次右击就会发现语言已经转换成中文了。
 ![修改](/img/in-post/post-build-a-blog/git-setup08.png)
 这时候，选择里面的**Git**，**配置源**可以按照自己的需求选择，**名称**，**Email**和**签名密匙ID**就是我们注册Git的账号名称和邮箱以及密码。
@@ -127,13 +145,24 @@ Git的安装路径可以换成自己想要的路径，保证自己能够记住�
 
 
 
+=======
+>>>>>>> f8d46ac7301e67a4ef5ad552a91bae388363ec2d:_posts/2017-10-22-build-a-blog1.md
+
+
+如下图在**General**中，设置**Language**为**简体中文**，点击选择**应用**。
+再次右击文件夹就会发现语言已经转换成中文了。
+![修改](/img/in-post/post-build-a-blog/git-setup08.png)
+
+这时候，选择里面的**Git**，，**名称**，**Email**和**签名密匙ID**就是我们注册Git的账号名称和邮箱以及密码（**配置源**可以按照自己的需求选择）。
+![补上用户信息](/img/in-post/post-build-a-blog/git-setup09.png)
+
+### Jekyll本地调试的环境的安装
+>如果电脑上已经安装好Git的相关内容，可以直接来进行这一步
+**为什么要安装关于Jekyll的本地环境呢？**
+因为如果没有安装其本地调试的环境，每次修改了本地文件我们都至少需要三个命令和服务器的延迟刷新才能看到修改以后的效果，效率不是很高。
+
+所以我们需要安装关于Jekyll的本地环境。
 
 
 
-
-
-
-
-
----
 
