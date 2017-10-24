@@ -1,0 +1,106 @@
+---
+layout:     post
+title:      "Github Pages + Jekyll搭建独立博客教程(二)"
+subtitle:   ""
+author:     "zhuowl"
+header-img: "img/post-bg-js-version.jpg"
+tags:
+    - Git
+    - 教程
+---
+# 前言
+在Github Pages + Jekyll搭建独立博客教程(一)中，我们已经配置好了所需要的环境，现在我们可以做真正属于自己的博客了。
+
+
+---
+
+
+
+**版权声明：欢迎分享，转载请注明此文链接。**
+
+## 目录
+
+
+
+## 新建博客
+建立基于Jekyll的个人Github Pages有两条路线
+>1. 拥有网页设计的基础，自学Jekyll的教程，设计完全自我基因的网页。
+>1. Fork别人的已有的开源博客仓库，只要修改部分内容，就可以实现符合自己的个人博客。（fork:复制当前所在页面的仓库到自己的Github中，相当于给自己的Github开出一条fork的仓库的分支。）
+
+对于网页基础一般的，可以选择第二种方法来。（比较省心省力）
+#### 选择模板
+Jekyll在他们的[wink页面](https://github.com/jekyll/jekyll/wiki/sites)提供了大量优秀的各种风格的博客。
+横线标注的是对应博客网站的网址，而圈起**source**则是表示博客模板对应的Github、页面，也就是我们可以fork的页面。
+（个人建议是可以选择是有标注中文的，这样我们在修改模板文件的时候，对方可能有中文的注释，修改起来会更加亲切。）
+![博客资源](/img/in-post/post-build-a-blog/pages01.png)
+>这是我参考的博客模板的[Github页面](https://github.com/Huxpro/huxblog-boilerplate),这个是博客主另外给做的一个稳定版的模板，修改起来比较方便。
+>**[在这里预览模板 &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
+
+#### 修改模板
+下面以我直接修改上面的模板为例，其他的模板修改起来应该也是大同小异的。
+首先在模板的Github页面，点击fork。
+![fork仓库](/img/in-post/post-build-a-blog/pages02.png)
+回到自己的Github页面，发现已经多了仓库，名字就是我们之前fork的仓库，点击它。
+![fork仓库2](/img/in-post/post-build-a-blog/pages03.png)
+这时候，我们要做的第一件事就是修改仓库的名字，点击**Stetting**。
+![修改仓库名1](/img/in-post/post-build-a-blog/pages04.png)
+将横线未知的内容改成和自己的相关内容，一般来说可以改成和自己的Git账号名字相同或者自己名字的缩写，也就是尽量有意义些，当然这在以后也是可以修改的。修改完成，点击**Renmae**,仓库名就修改好了。
+![修改仓库名2](/img/in-post/post-build-a-blog/pages05.png)
+>注意：github.io要保持不变，这是Git官方设定的，不然会引起混乱。
+
+打开仓库文件，那么多文件，我们需要改哪些呢。
+主要是修改标注的这四个文件，绿色的标注的表示可以在本地修改比较好，也就是克隆到本地后再修改。红色的表示可以直接在Github上修改，当然也可以克隆到本地再修改。
+- _post文件内存储的就是你的博客文章，文章的格式可以是markdown或者
+![修改图1](/img/in-post/post-build-a-blog/jekyll01.png)
+###### 修改config.yml文件
+以修改config.yml文件为例，点击Github上的该文件，进入如图页面，点击**编辑工具**
+```js
+title: Your Blog				//你的博客网站标题
+SEOTitle: 你的博客 | Your Blog 			//SEO Title就是定义了<head><title>标题</title></head>	
+header-img: img/home-bg.jpg			//home页的头图，可以不修改文件名，直接在img文件中替换图片即可
+email: huxpro@gmail.com				//你注册Git的邮箱
+description: ""					//关于你自己的描述
+keyword: ""							//可以不填
+url: "http://huangxuan.me"          //你博客的地址：一般格式是 http://XXXX.github.io
+					//也就是 http://+仓库名。
+baseurl: "/你的博客的仓库名" 	//如果你的博客样式没有加载出来，很可能因为这个原因
+```
+
+###### 修改内容标注———相关信息链接
+```
+
+###### 修改内容标注———其他
+
+接下来就是把这个仓库里的内容克隆到本地，也就是自己的电脑上。点击**Clone or download**,点击弹出的剪切板按钮。
+ ![本地修改](/img/in-post/post-build-a-blog/pages06.png)
+在电脑上新建个文件夹，命名为英文较好（中文易出错，英文后面调试方便），我是直接命名为Blog。选择文件夹右键，选择点击**Git克隆**。
+![本地修改2](/img/in-post/post-build-a-blog/pages07.png)
+出现下面这样的窗口，直接点击**确定**就好。
+**URL**是就是我们刚刚点击剪切板时，自动复制的。
+**目录**则是我们克隆下来的仓库所在的位置。
+![本地修改3](/img/in-post/post-build-a-blog/pages08.png)
+正在克隆的窗口界面,等待一段时间。
+![本地修改4](/img/in-post/post-build-a-blog/pages09.png)
+克隆成功时，会出现成功的蓝色字样，就表示我们已经克隆成功，本地上已经有该博客的一个仓库。
+![本地修改5](/img/in-post/post-build-a-blog/pages10.png)
+
+
+如果要修改博客内的图标，如果图标命名没有问题(没有问题的意思是：命名和你fork的仓库的主人没有关系)你就可以直接替换img文件夹内对应的图片即可。
+对于需要修改命名的图片名，例如avatar-XX.jpg,对于这种格式的命名方式，我们肯定是想要修改成avatar.jpg或者avatar-自己名字的缩写.jpg，就需要注意找到yml文件中对应的位置，将其修改过来。
+
+当然如果你懒得改或者怕出错，你可以选择只在img文件中替换对应对的图片。
+
+
+
+#### Jekyll的本地调试的环境的安装
+>为了使在本地也可以看到我们博客的效果。如果没有安装，我们每次修改了一些内容都需要重复的推送到本地master，再上传，再在我们的博客地址上看到最终效果，十分的麻烦。
+
+
+
+
+
+
+
+
+---
+

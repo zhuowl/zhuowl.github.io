@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Github Pages + Jekyll搭建独立博客教程(一)"
-subtitle:   ""
+subtitle:   "配置相关的环境"
 author:     "zhuowl"
 header-img: "img/post-bg-js-version.jpg"
 tags:
@@ -15,46 +15,41 @@ tags:
 
 ---
 **版权声明：欢迎分享，转载请注明此文链接。**
-<<<<<<< HEAD:_posts/2017-10-22-build-a-blog.md
-http://zhuowl.github.io/2017/10/21/build-a-blog/
 
 
 
-## 目录
-
-
-1. [关于Github Pages + Jekyll](# github-pages---jektll-is-what)
-2. [注册GitHub](# github)
-3. [环境安装](# setup)
-4. [建立个人的GitHub Pages](# github-pages)
-
-
-
-=======
-(http://zhuowl.github.io/2017/10/22/build-a-blog/)
 
 ## 目录
-1. [关于Github Pages + Jekyll](#github-pages---jektll-is-what)
+1. [关于Github Pages + Jekyll](#github-pages--jektll-is-what)
+
+	1.[什么是Git & GitHub & Github Pages](#Git-GitHub-GitPages)
+
+	2.[什么是Jekyll](#Jekyll-01)
+
+	3.[Github pages+Jekyll](#Github-pages-Jekyll)
 2. [注册GitHub](#github)
-3. [Git环境安装](#setup)
-4. [Jelyll本地调试环境安装](#jekyll-set)
->>>>>>> f8d46ac7301e67a4ef5ad552a91bae388363ec2d:_posts/2017-10-22-build-a-blog1.md
+3. [Git相关环境安装](#install-git)
 
+	1.[Git安装](install-git-01)
+
+	2.[TortoiseGit的安装](install-git-02)
+4. [Jelyll本地调试环境安装](#install-jekyll)
+5. [相关文章链接](#about01)
+
+<p id = "github-pages--jektll-is-what"></p>
 ## 关于Github Pages + Jekyll
-
+<p id = "Git-GitHub-GitPages"></p>
 ### 什么是Git & [GitHub](https://github.com/) &[Github Pages](https://pages.github.com/)
+
 Git是一种分布式版本控制系统，由大名鼎鼎的Linux操作系统创建人Linus Torvalds编写，当时的目的是用来管理Linux内核的源码。
 [Github](https://github.com/)是全球知名的使用Git系统的一个免费远程仓库（Repository），倡导开源理念，若要将自己的代码仓库私有则需付费。
 [Github Pages](https://pages.github.com/)是面向用户、组织和项目开放的公共静态页面搭建托管服 务，站点可以被免费托管在 Github 上，你可以选择使用 Github Pages 默 认提供的域名 github.io 或者自定义域名来发布站点。Github Pages 支持 自动利用 Jekyll 生成站点，也同样支持纯 HTML 文档，将你的 Jekyll 站 点托管在 Github Pages 上是一个不错的选择。
 
-#### 利用Git建立的博客的两种方法
->- 建立一个专门的版本库，来管理自己的博客。
-- 在项目中建立一个命名为gh-pages的分支（主要可以用来专门展示该项目）。
-
-  因为我的主要目的是建立一个属于自己的独立博客，在上面写些自己的内容，所以我选择了第一种方法.
-
+<p id = "Jekyll-01"></p>
 ### 什么是[Jekyll](http://jekyll.com.cn/)
+
 Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过Markdown（或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的。
+<p id = "Github-pages-Jekyll"></p>
 ### Github pages+Jekyll
 
 Github Pages + Jekyll方案的**优点**：
@@ -68,7 +63,9 @@ Github Pages + Jekyll方案的**不足**：
 - 由于Jekyll生成的是静态网页，想要加入动态的功能，例如评论功能（下文解决），需要用到第三方的服务。
 - 想要完全制作属于自己的博客主题需要懂一些网页制作的知识。
 
+<p id = "github"></p>
 ## 注册GitHub
+
 在[Github的官方网址](https://github.com/)注册账户，记住自己的用户名，后面会有用到。
 >如果已经有了自己的GitHub账号可以忽略这一步。
 
@@ -76,11 +73,15 @@ Github Pages + Jekyll方案的**不足**：
 按顺序填写图中的信息，再点击**Sign up for GitHUb**,会进入下一页面，同时你的邮箱中会收到确认账号的邮件，在邮箱中确认，就会直接进入了你的Git账号页面。
 ![注册账号01](/img/in-post/post-build-a-blog/git01.png)
 
-## 环境安装
+
+
+## Git相关环境安装
+<p id = "install-git"></p>
 >本文的安装都是在Windows系统下进行。
 
-### Git相关环境的安装
-#### Git安装
+### 1.Git安装
+<p id = "install-git-01"></p>
+
 >如果之前已经安装了Git，可以忽略这一步。
 
 在[Git的官网网址](https://git-scm.com/)点击下载安装包
@@ -89,26 +90,23 @@ Github Pages + Jekyll方案的**不足**：
 ![下载Git02](/img/in-post/post-build-a-blog/git-setup02.png)
 双击下载得到的Git安装包文件。
 Git的安装路径可以换，保证自己能够记住这个路径，而且尽量不要有中文（就怕中文万一有什么问题。）
-
 对于Git的安装选项，我都是直接默认就好，有其他需要的可以按着自己的需求来。
 
-<<<<<<< HEAD:_posts/2017-10-22-build-a-blog.md
-也可以参考这篇文章可以参考这篇[ github入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)，上面有将Git安装时的每个选项的意义的内容。
-=======
-当然也可以参考这篇文章[Git入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)里面有详细的关于如何安装Git的内容。
->>>>>>> f8d46ac7301e67a4ef5ad552a91bae388363ec2d:_posts/2017-10-22-build-a-blog1.md
+>也可以参考这篇文章可以参考这篇[github入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)，上面有将Git安装时的每个选项的意义的内容。
+
 ![Git安装](/img/in-post/post-build-a-blog/git-setup03.png)
 直到最后install,等待一段时间，Git就安装完成了。
 
-#### Git的图形客户端 ——TortoiseGit的安装
+### 2.Git的图形客户端 ——TortoiseGit的安装
+<p id = "install-git-02"></p>
 >对于Git的使用，我个人觉得先在安装Git安装完成后，体验一番用命令行来控制Git的各种行为后，再来用[TortoiseGit](https://tortoisegit.org/)这种图形客户端来实现Git的功能。这样对于Git的工作流程会有更加清晰的认识，而使用图形客户端能够是我们在使用Git的时候更加方便。
 > 参考这篇[Git入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)文章，可以学习Git的命令行语句。
 
-<<<<<<< HEAD:_posts/2017-10-22-build-a-blog.md
+
 >关于如何使用命令行可以参考刚刚推荐的这篇[ github入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)
->里面也有很详细的关于如何使用命令行来实现版本控制。
-=======
->>>>>>> f8d46ac7301e67a4ef5ad552a91bae388363ec2d:_posts/2017-10-22-build-a-blog1.md
+里面也有很详细的关于如何使用命令行来实现版本控制。
+
+
 
 在[TortoiseGit的官网网址](https://tortoisegit.org/)中下载TortoiseGit的安装包。
 ![下载tortoiseGit](/img/in-post/post-build-a-blog/git-setup05.png)
@@ -118,50 +116,57 @@ Git的安装路径可以换，保证自己能够记住这个路径，而且尽�
 安装完成后，随便选择计算机中的一个文件夹右击出现下图。
 是不是很奇怪，我不是已经装好了语言包吗，为什么还是显示为英文。这是因为我们还没有修改语言设置。如图进入**Settings**设置。
 ![修改语言设置](/img/in-post/post-build-a-blog/git-setup07.png)
-<<<<<<< HEAD:_posts/2017-10-22-build-a-blog.md
-如图在**General**中，设置**Language**为**简体中文**，点击选择**应用**，再次右击就会发现语言已经转换成中文了。
+
+如图在**General**中，设置**Language**为**简体中文**，点击选择**应用**，再次右击文件夹就会发现语言已经转换成中文了。
 ![修改](/img/in-post/post-build-a-blog/git-setup08.png)
 这时候，选择里面的**Git**，**配置源**可以按照自己的需求选择，**名称**，**Email**和**签名密匙ID**就是我们注册Git的账号名称和邮箱以及密码。
 ![补上账号信息](/img/in-post/post-build-a-blog/git-setup09.png)
 
-
-
-
-#### Jekyll的本地调试的环境的安装
->为了使在本地也可以看到我们博客的效果。如果没有安装，我们每次修改了一些内容都需要重复的推送到本地master，再上传，再在我们的博客地址上看到最终效果，十分的麻烦。
-
-
-
-## 建立个人的GitHub Pages
-
-### 建立博客的版本库
-在github的账号页面，选择右上角的左键点击+，弹出子菜单，选择其中的**new repository **(新的版本库)
-![注册账号02](/img/in-post/post-build-a-blog/git02.png)
-
-
-
-
-
-
-
-
-=======
->>>>>>> f8d46ac7301e67a4ef5ad552a91bae388363ec2d:_posts/2017-10-22-build-a-blog1.md
-
-
-如下图在**General**中，设置**Language**为**简体中文**，点击选择**应用**。
-再次右击文件夹就会发现语言已经转换成中文了。
-![修改](/img/in-post/post-build-a-blog/git-setup08.png)
-
-这时候，选择里面的**Git**，，**名称**，**Email**和**签名密匙ID**就是我们注册Git的账号名称和邮箱以及密码（**配置源**可以按照自己的需求选择）。
-![补上用户信息](/img/in-post/post-build-a-blog/git-setup09.png)
-
-### Jekyll本地调试的环境的安装
+## Jelyll本地调试环境安装
+<p id = "install-jekyll"></p>
 >如果电脑上已经安装好Git的相关内容，可以直接来进行这一步
+
 **为什么要安装关于Jekyll的本地环境呢？**
 因为如果没有安装其本地调试的环境，每次修改了本地文件我们都至少需要三个命令和服务器的延迟刷新才能看到修改以后的效果，效率不是很高。
+所以为了提高效率，我们需要安装Jekyll的本地调试环境。
+>本文主要介绍windows环境下的安装，Mac和Linux环境下可以使用自带的包管理器进行安装，可参考[这篇文章](http://www.cnblogs.com/daguo/p/4097263.html)。
 
-所以我们需要安装关于Jekyll的本地环境。
+### 1.安装[Ruby](https://rubyinstaller.org/downloads/)
+![安装Ruby01](/img/in-post/post-build-a-blog/install-ruby-01.png)
+**注意：安装时一定要勾选添加到环境变量**
+![安装Ruby02](/img/in-post/post-build-a-blog/install-ruby-02.png)
+
+### 2. 安装[RubyGems](https://rubygems.org/pages/download)
+windows下下载ZIP格式较为方便，下好后解压到本地任意路径.
+双击运行解压后的文件夹内的**setup.rb**文件
+
+### 3. 安装Jekyll
+打开windows的cmd终端（按win+R快捷键打开“运行”，输入cmd，确定），输入命令:
+```
+gem install jekyll
+```
+
+如果遇到以下错误，说明网络不通：
+```js
+ERROR:  While executing gem ... (Gem::RemoteFetcher::FetchError)
+Errno::ECONNRESET: An existing connection was forcibly closed by the remote host.
+```
+这时候有三种解决方法：
+1. 等天气好的时候再来
+2. 架梯子
+3. [推荐] 更换为[Ruby China](https://gems.ruby-china.org/)源，点进去会有详细的设置方法。
+
+
+## 相关文章链接
+<p id = "about01"></p>
+1. [Github Pages + Jekyll 独立博客一小时快速搭建&上线指南](http://playingfingers.com/2016/03/26/build-a-blog/#jekyll-1)
+2. [github入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)
+3. [Jekyll的中文文档](http://jekyll.com.cn/docs/home/)
+
+
+
+
+
 
 
 
