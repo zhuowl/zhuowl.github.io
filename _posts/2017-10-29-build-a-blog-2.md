@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Github Pages + Jekyll搭建独立博客教程(二)"
-subtitle:   ""
+subtitle:   "修改模板+添加评论功能"
 author:     "zhuowl"
 header-img: "img/post-bg-js-version.jpg"
 tags:
@@ -121,7 +121,7 @@ Deprecation: You appear to have pagination turned on, but you haven't included t
 ### 其他+相关链接
 [jekyll的模板链接](https://github.com/jekyll/jekyll/wiki/sites)
 [本博客参考的模板的GitHub页面](https://github.com/Huxpro/huxblog-boilerplate)
-
+[用自己的域名的替换博客域名](http://playingfingers.com/2016/03/26/build-a-blog/#section-13)
 有疑问的欢迎在下方的评论处和我交流
 
 ---
