@@ -3,7 +3,7 @@ layout:     post
 title:      "Github Pages + Jekyll搭建独立博客教程(二)"
 subtitle:   "修改模板+添加评论功能"
 author:     "zhuowl"
-header-img: "img/post-bg-js-version.jpg"
+header-img: "img/bg/bg_cat_07.jpg"
 tags:
     - Git
     - 教程
@@ -119,9 +119,10 @@ Deprecation: You appear to have pagination turned on, but you haven't included t
 你也可以用国内的[畅言](http://changyan.kuaizhan.com/)等。
 如何加入第三方评论功能，简单来说就是在这些评论系统中注册账号，然后获得一段Javascript代码，将代码粘贴到想要加入评论功能的页面的html文件中。
 ### 其他+相关链接
-[jekyll的模板链接](https://github.com/jekyll/jekyll/wiki/sites)
-[本博客参考的模板的GitHub页面](https://github.com/Huxpro/huxblog-boilerplate)
-[用自己的域名的替换博客域名](http://playingfingers.com/2016/03/26/build-a-blog/#section-13)
+- [jekyll的模板链接](https://github.com/jekyll/jekyll/wiki/sites)
+- [本博客参考的模板的GitHub页面](https://github.com/Huxpro/huxblog-boilerplate)
+- [用自己的域名的替换博客域名](http://playingfingers.com/2016/03/26/build-a-blog/#section-13)
+
 有疑问的欢迎在下方的评论处和我交流
 
 ---

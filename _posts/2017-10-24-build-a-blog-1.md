@@ -3,7 +3,7 @@ layout:     post
 title:      "Github Pages + Jekyll搭建独立博客教程(一)"
 subtitle:   "配置相关的环境"
 author:     "zhuowl"
-header-img: "img/post-bg-js-version.jpg"
+header-img: "img/bg/bg_cat_07.jpg"
 tags:
     - Git
     - 教程
