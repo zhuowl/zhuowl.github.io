@@ -4,7 +4,7 @@ title:      "个人简历"
 subtitle:   "关于个人的一些介绍"
 date:       2017-10-19
 author:     "zhuowl"
-header-img: "img/bg/bg_cat_012.jpg"
+header-img: "img/bg/bg-cat-03.jpg"
 tags:
     - 个人简历
 

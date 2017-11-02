@@ -3,7 +3,7 @@ layout:     post
 title:      "Github Pages + Jekyll搭建独立博客教程(二)"
 subtitle:   "修改模板+添加评论功能"
 author:     "zhuowl"
-header-img: "img/bg/bg_cat_07.jpg"
+header-img: "img/bg/bg-cat-08.jpg"
 tags:
     - Git
     - 教程
