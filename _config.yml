@@ -4,7 +4,7 @@ SEOTitle: 天才宝藏的博客 | Your Blog
 header-img: img/home-bg.jpg
 email: zhuowl527@gmail.com
 description: "快下架的老学姐，好好学习，天天向上"
-keyword: ""
+keyword: "You are the key to your own happiness, so go ahead, unlock it once and for all."
 url: "http://zhuowl.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -88,10 +88,18 @@ friends: [
     {
         title: "Hux Blog",
         href: "http://huangxuan.me"
-    }
-    #  {
-    #     title: "ciel1012 Blog",
-    #     href: "http://ciel1012.github.io"
-    # }
+    },
     
+     {
+        title: "ciel1012 Blog",
+        href: "http://ciel1012.github.io"
+    }
+    ,
+    
+     {
+        title: "马老板",
+        href: "http://blog.csdn.net/qq_31336891"
+    }
+    
+
 ]
