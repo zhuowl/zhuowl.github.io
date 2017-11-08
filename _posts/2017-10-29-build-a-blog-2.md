@@ -51,7 +51,7 @@ Jekyll在他们的[wink页面](https://github.com/jekyll/jekyll/wiki/sites)提�
 ![fork仓库2](/img/in-post/post-build-a-blog/pages03.png)
 这时候，我们要做的第一件事就是修改仓库的名字，点击**Stetting**。
 ![修改仓库名1](/img/in-post/post-build-a-blog/pages04.png)
-将横线未知的内容改成和自己的相关内容，一般来说可以改成和自己的Git账号名字相同或者自己名字的缩写，也就是尽量有意义些，当然这在以后也是可以修改的。修改完成，点击**Renmae**,仓库名就修改好了。
+将仓库名改成例如： @mojombo 的用户站点仓库 应该被命名为 mojombo.github.io 。点击**Renmae**,仓库名就修改好了。
 ![修改仓库名2](/img/in-post/post-build-a-blog/pages05.png)
 >注意：github.io要保持不变，这是Git官方设定的，不然会引起混乱。
 
