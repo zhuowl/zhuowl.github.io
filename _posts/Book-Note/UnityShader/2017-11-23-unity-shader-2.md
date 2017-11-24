@@ -2,7 +2,7 @@
 
 layout:     post
 
-title:      " 渲染流水线——学习笔记"
+title:      " 学习笔记:渲染流水线"
 
 subtitle:   "《UnityShader入门精要》第2章"
 
