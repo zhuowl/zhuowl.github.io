@@ -6,7 +6,7 @@ layout:     post
 
 
 
-title:      "学习笔记+教程：环境配置"
+title:      "学习笔记+教程：DirectX3D9.0游戏编程环境配置"
 
 
 
