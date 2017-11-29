@@ -289,7 +289,7 @@ windows下下载ZIP格式较为方便，下好后解压到本地任意路径.
 
 ```
 
-gem install jekyll
+gem install jekyll-paginate
 
 ```
 
