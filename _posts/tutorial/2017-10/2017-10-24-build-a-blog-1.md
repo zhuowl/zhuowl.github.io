@@ -283,16 +283,18 @@ windows下下载ZIP格式较为方便，下好后解压到本地任意路径.
 
 
 
-### 3. 安装Jekyll
+### 3. 安装Jekyll+安装jekyll-paginate
 
 打开windows的cmd终端（按win+R快捷键打开“运行”，输入cmd，确定），输入命令:
 
 ```
+gem install jekyll
 
-gem install jekyll-paginate
 
 ```
-
+```
+gem install jekyll-paginate
+```
 
 
 如果遇到以下错误，说明网络不通：
