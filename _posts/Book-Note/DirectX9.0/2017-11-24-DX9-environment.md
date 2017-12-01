@@ -42,7 +42,7 @@ tags:
 
 ## 1.1 安装DirectX9.0  
 
-[DirectX9.0下载网址](https://directx.en.softonic.com/)下载DirectX9.0    
+[DirectX9.0下载网址](https://www.microsoft.com/en-us/download/details.aspx?id=8109)下载DirectX9.0    
 
 得到名为`directx_Jun2010_redist.exe`文件，双击该文件。
 ![安装DX9](/img/in-post/book-note/DirectX-9.0-Base/environment-set-up/clipboard-2.png)
