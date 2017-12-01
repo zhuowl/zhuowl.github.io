@@ -70,7 +70,7 @@ SDK（Software Development Kit，软件开发工具包）
 >Error Code: S1023
 
 **解决办法**为：   
-- 在路径为（`C:\Users\\AppData\Local\Temp`）中找到一个名为Microsoft Visual C++ 2010 x64 Redistributable Setup_20110608_xxx.html ##的文件。
+- 在路径为（`C:\Users\\AppData\Local\Temp`）中找到一个名为Microsoft Visual C++ 2010 x64 Redistributable Setup_20110608_xxx.html ##的文件。(如果找不到AppData文件，应该是该文件被隐藏了，需注意要显示隐藏文件)
 
 - 双击该文件，如果能找到下面这一段话：
 >Installation Blockers:     
@@ -78,7 +78,7 @@ SDK（Software Development Kit，软件开发工具包）
 
 那就需要在你的控制面板中删除下面这个文件   
 `Microsoft Visual C++ 2010 x86/x64 redistributable - 10.0.(number over 30319)`
->(删除x84或者x64,我的电脑是64位的，我删除x86后才可以成功安装)		
+>(我是x86和x64都删除了，才成功安装)		
 
 - 删除上面的文件后，再次安装SDK文件就可以成功安装了。  
 参考[解决问题的的网址](https://stackoverflow.com/questions/4102259/directx-sdk-june-2010-installation-problems-error-code-s1023)
@@ -87,7 +87,7 @@ SDK（Software Development Kit，软件开发工具包）
 按照书中所说，打开VS，选择`工具`->`选项`
 ![安装DX9](/img/in-post/book-note/DirectX-9.0-Base/environment-set-up/clipboard-6.png)
 ![安装DX9](/img/in-post/book-note/DirectX-9.0-Base/environment-set-up/clipboard-7.png)
-发现在vs2015的版本中，按照上述的方法找到的VC++目录已经被弃用了，根据提示，在->`项目`->`属性`中找到了VC++目录。
+发现在vs2017的版本中，按照上述的方法找到的VC++目录已经被弃用了，根据提示，在->`项目`->`属性`中找到了VC++目录。
 所以需要先新建一个项目：  
 注意是win32的项目，项目名字自定义（如下标记步骤）  
 ![安装DX9](/img/in-post/book-note/DirectX-9.0-Base/environment-set-up/clipboard-8.png)
