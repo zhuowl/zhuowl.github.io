@@ -28,7 +28,6 @@ tags:
 
 
 
-
 ---
 
 **版权声明：欢迎分享，转载请注明此文链接。**
@@ -309,13 +308,10 @@ Errno::ECONNRESET: An existing connection was forcibly closed by the remote host
 
 这时候有三种解决方法：
 
-1. 等天气好的时候再来
+1. 架梯子
+2. [推荐] 更换为[Ruby China](https://gems.ruby-china.org/)源，点进去会有详细的设置方法。
 
-2. 架梯子
-
-3. [推荐] 更换为[Ruby China](https://gems.ruby-china.org/)源，点进去会有详细的设置方法。
-
-
+### 4.关于本地如用利用jekyll进行预览，可以参考我的第二篇的[GithubPages+jekyll教程博客](https://zhuowl.github.io/2017/10/29/build-a-blog-2/#Jekyll-serve)
 
 
 
@@ -323,11 +319,8 @@ Errno::ECONNRESET: An existing connection was forcibly closed by the remote host
 
 <p id = "about01"></p>
 
-1. [Github Pages + Jekyll 独立博客一小时快速搭建&上线指南](http://playingfingers.com/2016/03/26/build-a-blog/#jekyll-1)
-
-2. [github入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)
-
-3. [Jekyll的中文文档](http://jekyll.com.cn/docs/home/)
+1. [github入门到上传本地项目](http://www.cnblogs.com/specter45/p/github.html)
+2. [Jekyll的中文文档](http://jekyll.com.cn/docs/home/)
 
 
 

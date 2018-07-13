@@ -11,7 +11,6 @@ tags:
 # 前言
 >在Github Pages + Jekyll搭建独立博客教程(一)中，我们已经配置好了所需要的环境，现在我们可以做真正属于自己的博客了。
 
-
 ---
 <p id = "set-up-blog"></p>
 **版权声明：欢迎分享，转载请注明此文链接。**
@@ -123,7 +122,7 @@ Deprecation: You appear to have pagination turned on, but you haven't included t
 - [本博客参考的模板的GitHub页面](https://github.com/Huxpro/huxblog-boilerplate)
 - [用自己的域名的替换博客域名](http://playingfingers.com/2016/03/26/build-a-blog/#section-13)
 
-有疑问的欢迎在下方的评论处和我交流
+有疑问的欢迎在下方的评论处和我交流：）
 
 ---
 
