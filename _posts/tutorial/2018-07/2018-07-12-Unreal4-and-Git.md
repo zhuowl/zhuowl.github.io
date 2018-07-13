@@ -26,7 +26,7 @@ tags:
 
 软件安装：安装好Git 和TortoiseGit
 
-> 关于这两个软件如何安装，我之前也写过一点教程，[Git和TortoiseGit的安装教程](https://zhuowl.github.io/2017/10/24/build-a-blog-1/)在这可以参考一下
+> 关于这两个软件如何安装，我之前也写过一点教程，[Git和TortoiseGit的安装教程]({% post_url 2017-10/2017-10-24-build-a-blog-1 %})在这可以参考一下
 > （p(#￣▽￣#)o）
 
 <p id = "Git-setup"></p>
