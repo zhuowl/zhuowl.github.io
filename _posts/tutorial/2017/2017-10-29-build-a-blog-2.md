@@ -111,6 +111,12 @@ Deprecation: You appear to have pagination turned on, but you haven't included t
 ```
 如果一切顺利，你会看到**Server address: http://127.0.0.1:4000/**这样的一句话
 复制这个地址（注意不要用‘Ctrl+c’来复制，这个程序是ctrl+c是会关闭的），在浏览器中打开，即可预览到博客效果。
+
+#### 草稿
+草稿是文件名中没有日期的帖子。他们是你仍然在工作但不想发布的帖子。要启动并运行草稿，请`_drafts`在站点的根目录中创建一个文件夹并创建初稿。
+
+要使用草稿预览您的站点，请运行`jekyll serve`或`jekyll build` 使用`--drafts`开关。将为每个日期分配草稿文件的值修改时间，因此您将看到当前编辑的草稿作为最新帖子。
+
 <p id = "link"></p>
 ### 附加：添加评论功能
 作为一个博客，没有评论功能，就如同缺了血肉的骨架。
