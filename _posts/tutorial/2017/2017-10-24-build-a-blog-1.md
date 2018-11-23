@@ -15,7 +15,8 @@ tags:
     - Git
 
     - 教程
-
+categories: jekyll
+    
 ---
 
 # 前言

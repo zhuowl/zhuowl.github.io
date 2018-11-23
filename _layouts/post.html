@@ -7,6 +7,7 @@ layout: default
 <!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
 
 <!-- Post Header -->
+<script type="text/javascript" src="{{"/js/index.js" | prepend:site.baseurl}}"></script>
 <style type="text/css">
     header.intro-header{
         background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
@@ -15,6 +16,7 @@ layout: default
 <header class="intro-header" >
     <div class="container">
         <div class="row">
+            
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
                     <div class="tags">
@@ -78,6 +80,9 @@ layout: default
                 sidebar-container">
 
 
+
+
+
                 <!-- Featured Tags -->
                 {% if site.featured-tags %}
                 <section>
@@ -87,14 +92,14 @@ layout: default
         				{% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
                 				<a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
-                                    {{ tag[0] }}
+                                    {{ tag[0] }}  <sup>{{tag[1].size}} 
                                 </a>
+
                             {% endif %}
         				{% endfor %}
         			</div>
                 </section>
                 {% endif %}
-
 
 
 
@@ -132,10 +137,14 @@ layout: default
                 })();
                 </script>
                 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+                </div>
     <!-- disqus 对话框 end -->
+
+
+
+
                 
-            </div>
+           
         </div>
     </div>
 </article>

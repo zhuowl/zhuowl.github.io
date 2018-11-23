@@ -7,6 +7,10 @@ header-img: "img/bg/bg-cat-08.jpg"
 tags:
     - Git
     - 教程
+categories: 
+	- jekyll
+ 
+    
 ---
 # 前言
 >在Github Pages + Jekyll搭建独立博客教程(一)中，我们已经配置好了所需要的环境，现在我们可以做真正属于自己的博客了。
